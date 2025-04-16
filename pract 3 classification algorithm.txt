@@ -1,0 +1,5 @@
+hairfall<-c(12,13,14,17,15,18,12,13,14,17,19,18)
+hairfall
+hairfall.timeseries<-ts(hairfall,start=c(2024,4),frequency=12)
+hairfall.timeseries
+plot(hairfall.timeseries)
